@@ -1,0 +1,6 @@
+services:
+  ragbot:
+    image: ragbot
+    build:
+      context: .
+      dockerfile: ./Dockerfile
